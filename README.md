@@ -16,7 +16,12 @@ consumes the published engine and React packages:
 - `@owdproject/core` — framework-independent engine
 - `@owdproject/react` — React adapter (hooks, application/window registration)
 - `@owdproject/react-kit-react95` — React95 UI kit
-- `@owdproject/react-theme-win95` — win95 desktop theme
+- `owd-react-theme-win95` — win95 desktop theme
+
+The React95 kit and the win95 theme are **not published on npm**: their source is
+in the `dxlliv` org, so `template/` consumes the theme from
+`git+https://github.com/dxlliv/react-theme-win95.git`. Only sources under the
+`owdproject` org are published.
 
 A generated project keeps its own `.owd/project.json` framework profile.
 

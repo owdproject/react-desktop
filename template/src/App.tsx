@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { createDesktop, type Desktop } from '@owdproject/core'
-import { DesktopShell } from '@owdproject/react-theme-win95'
+import { DesktopShell } from 'owd-react-theme-win95'
 import { demoMenu, registerDemoApplications } from './apps'
 
 export function App() {

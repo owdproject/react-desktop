@@ -1,6 +1,6 @@
 import { InfoBubble, Notepad } from '@react95/icons'
 import { registerReactApplication, type Desktop, type ReactApplicationConfig } from '@owdproject/react'
-import type { DesktopApp } from '@owdproject/react-theme-win95'
+import type { DesktopApp } from 'owd-react-theme-win95'
 import { AboutApp } from './About'
 import { NotepadApp } from './Notepad'
 

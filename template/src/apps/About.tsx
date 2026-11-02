@@ -1,5 +1,5 @@
 import { Computer } from '@react95/icons'
-import { Button } from '@owdproject/react-theme-win95'
+import { Button } from 'owd-react-theme-win95'
 import type { ReactApplicationWindowProps } from '@owdproject/react'
 
 export function AboutApp({ window, close }: ReactApplicationWindowProps) {

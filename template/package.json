@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/react": "^4.0.0-alpha.3",
-    "@owdproject/react-theme-win95": "^4.0.0-alpha.3",
+    "@owdproject/core": "^4.0.0-alpha.4",
+    "@owdproject/react": "^4.0.0-alpha.4",
+    "owd-react-theme-win95": "git+https://github.com/dxlliv/react-theme-win95.git#main",
     "@react95/icons": "^2.8.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
